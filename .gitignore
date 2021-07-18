@@ -1,0 +1,16 @@
+*.pdf
+*.log
+*.csv
+*.json
+
+
+demo.py
+extract_data.py
+geckodriver*
+res1.txt
+namelist.txt
+
+
+compress
+results
+sources
