@@ -1,7 +1,7 @@
 <!--
  * @Date: 2021-07-19 01:47:27
  * @LastEditors: chenfa
- * @LastEditTime: 2021-07-19 02:13:34
+ * @LastEditTime: 2021-07-19 11:29:33
 -->
 # Quasar Finding Helper
 
@@ -18,8 +18,8 @@ Applicable to Linux platform.
 ## Usage
 
 - Download source code and extract it into a certain path, e.g., `~/QuasarFindingHelper`. Then `cd` into it.
-- Put the .xlsx file into `~/QuasarFindingHelper` directory (the same directory as `quasar_finding_helper.py`).
-- Run with `python quasar_finding_helper.py`
+- Put the .xlsx file into `~/QuasarFindingHelper` directory (the same directory as `QuasarFindingHelper.py`).
+- Run with `python QuasarFindingHelper.py` for default (range [0, row_number)), or specify start and end id by `python QuasarFindingHelper.py <start_id> <end_id>` (range [start_id, end_id), use `-1` for default)
 
 ## Dependences
 
