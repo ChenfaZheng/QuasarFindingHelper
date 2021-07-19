@@ -2,7 +2,7 @@
 *.log
 *.csv
 *.json
-
+*.xlsx
 
 demo.py
 extract_data.py
