@@ -1,7 +1,7 @@
 '''
 Date: 2021-07-18 14:44:24
 LastEditors: chenfa
-LastEditTime: 2021-07-19 11:28:58
+LastEditTime: 2021-07-19 11:38:46
 '''
 
 import os
@@ -194,7 +194,6 @@ def main(sysarg: list) -> None:
     assert job_range[1] > job_range[0]
     print(sources[job_range[0]:job_range[1]])
     for sid, source in sources[job_range[0]:job_range[1]].iterrows():
-        continue
         image_finder(source, sid)
     pass
 
