@@ -7,7 +7,7 @@
 
 A simple script for summarizing quasar information into one picture.
 
-Applicable to Linux platform. 
+Applicable to Linux os. 
 
 ## Utility
 
