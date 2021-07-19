@@ -1,7 +1,7 @@
 <!--
  * @Date: 2021-07-19 01:47:27
  * @LastEditors: chenfa
- * @LastEditTime: 2021-07-19 11:29:33
+ * @LastEditTime: 2021-07-19 11:38:27
 -->
 # Quasar Finding Helper
 
@@ -27,6 +27,7 @@ Applicable to Linux platform.
 
 ```python
 import os
+import sys
 import wget
 
 import pandas as pd 
