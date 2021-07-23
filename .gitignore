@@ -3,6 +3,10 @@
 *.csv
 *.json
 *.xlsx
+*.svg
+
+data.txt
+dpi-*.txt
 
 demo.py
 extract_data.py
@@ -12,5 +16,5 @@ namelist.txt
 
 
 compress
-results
-sources
+results*
+sources*
