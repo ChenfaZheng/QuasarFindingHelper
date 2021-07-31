@@ -1,7 +1,7 @@
 <!--
  * @Date: 2021-07-19 01:47:27
  * @LastEditors: chenfa
- * @LastEditTime: 2021-07-19 11:38:27
+ * @LastEditTime: 2021-07-23 22:10:09
 -->
 # Quasar Finding Helper
 
@@ -31,6 +31,7 @@ import sys
 import wget
 
 import pandas as pd 
+import numpy as np 
 
 import matplotlib.pyplot as plt 
 from PIL import Image
