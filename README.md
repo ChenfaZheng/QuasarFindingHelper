@@ -1,7 +1,7 @@
 <!--
  * @Date: 2021-07-19 01:47:27
  * @LastEditors: chenfa
- * @LastEditTime: 2021-07-23 22:10:09
+ * @LastEditTime: 2021-07-31 14:02:08
 -->
 # Quasar Finding Helper
 
@@ -46,7 +46,9 @@ from selenium.webdriver.common.keys import Keys
 ### Others
 
 - https://github.com/mozilla/geckodriver/releases
-- gostscript
+  Remember to add to PATH.
+- ghostscript
+  On how to use gs on Windwos: https://www.ghostscript.com/doc/current/Use.htm#MS_Windows
 
 ## Contact
 

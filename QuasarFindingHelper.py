@@ -1,7 +1,7 @@
 '''
 Date: 2021-07-18 14:44:24
 LastEditors: chenfa
-LastEditTime: 2021-07-23 19:54:10
+LastEditTime: 2021-07-31 13:59:50
 '''
 
 import os
@@ -152,7 +152,10 @@ def image_finder(source: pd.Series, source_id: int =None, \
                     continue
             # using gostscript to change ps to eps, then delete ps file
             # PIL cannot deal with .ps format file downloaded here
-            os.system('gs -o %s -sDEVICE=eps2write %s'%(imgpath_eps, imgpath))
+            if os.name == 'nt': # windows x64
+                os.system('gswin32c -o %s -sDEVICE=eps2write %s'%(imgpath_eps, imgpath))
+            else:               # posix
+                os.system('gs -o %s -sDEVICE=eps2write %s'%(imgpath_eps, imgpath))
             os.remove(imgpath)
         # plot eps on figure
         with Image.open(imgpath_eps) as img:
